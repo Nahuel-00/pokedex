@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+.fondo1 {
+  position: fixed; /* Posición fija para que la imagen se mantenga fija en la pantalla */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ocupa todo el ancho de la ventana */
+  height: 100%; /* Ocupa toda la altura de la ventana */
+  z-index: -1; /* Para enviar la imagen al fondo y detrás de otros elementos */
+}
+
+.fondo1 img {
+  width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
+  height: 100%; /* Hacer que la imagen ocupe toda la altura del contenedor */
+  object-fit: cover; /* Hacer que la imagen se ajuste para cubrir todo el contenedor */
+}
+h1 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente para el texto */
+  padding: 20px; /* Espacio alrededor del texto */
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  
+  
+}
+
+.imagenizquierda {
+  position: absolute;
+  top: 50%;
+  left: 30;
+  transform: translateY(-50%);
+  width: 400px;
+}
+
+.primerpokemon {
+  position: absolute;
+  top: 68%;
+  left: 10%;
+  font-size: 32px; /* Tamaño del texto */
+  border: 2px solid black; /* Borde negro */
+  border-radius: 5px;
+  background-color: rgb(255, 0, 0);
+  font-family: "Madimi One", sans-serif;
+  font-style: normal;
+}
+
+.segundopokemon {
+  position: absolute;
+  top:74%;
+  left: 10%;
+  font-size: 32px; /* Tamaño del texto */
+  text-decoration: none;
+  border: 2px solid black; /* Borde negro */
+  border-radius: 5px;
+  background-color: rgb(0, 153, 255);
+  font-family: "Madimi One", sans-serif;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+
+.tercerpokemon {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  font-size: 32px; /* Tamaño del texto */
+  border: 2px solid black; /* Borde negro */
+  border-radius: 6px;
+  background-color: rgb(51, 255, 0);
+  font-family: "Madimi One", sans-serif;
+  font-style: normal;
+}
+.mapaplanta {
+  position: fixed; /* Posición fija para que la imagen se mantenga fija en la pantalla */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ocupa todo el ancho de la ventana */
+  height: 100%; /* Ocupa toda la altura de la ventana */
+  z-index: -1; /* Para enviar la imagen al fondo y detrás de otros elementos */
+}
+
+.mapaplanta img {
+  width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
+  height: 100%; /* Hacer que la imagen ocupe toda la altura del contenedor */
+  object-fit: cover; /* Hacer que la imagen se ajuste para cubrir todo el contenedor */
+}
+
+.personajerowlet {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  transform: translate(-140%, -10%);
+  width: 400px;
+
+}
+
+
+.titulo1 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 167, 4, 0.445); /* Fondo transparente para el texto */
+  padding: 25px; /* Espacio alrededor del texto */
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 1000;
+  font-style: 30px;
+}
+
+.titulo2 {
+  position: absolute;
+  top: 56%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+.titulo3 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-20%, -130%);
+  background-color: rgba(0, 255, 21, 0.349); /* Fondo transparente para el texto */
+  padding: 10px; /* Espacio alrededor del texto */
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+.Tipo{
+  position: absolute;
+  top: 63%;
+  left: 56%;
+  transform: translate(-20%, -130%);
+  width: 1%;
+}
+
+.Tipo img {
+  width: 55px; /* Ancho deseado para la imagen */
+  height: auto; /* Mantener la proporción de la imagen */
+}
+
+
+
+.información {
+  position: absolute; /* Posiciona el texto de forma absoluta */
+  color: white; /* Color del texto blanco */
+  left: 50%; /* Ajusta su posición en el centro del contenedor */
+  top: 80%;
+  transform: translateX(-50%); /* Centra el texto horizontalmente */
+  width: 50%; /* Ancho completo del contenedor */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-family: "Madimi One", sans-serif;
+  font-size: larger;
+}
+
+.Volver {
+  position: absolute; /* Posiciona el texto de forma absoluta */
+  color: rgb(255, 255, 255); /* Color del texto blanco */
+  left: 0%; /* Ajusta su posición en el centro del contenedor */
+  top: 90%;
+  width: 20%; /* Ancho completo del contenedor */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: xx-large;
+  font-family: "Madimi One", sans-serif;
+}
+
+.Evolución {
+  position: absolute; /* Posiciona el texto de forma absoluta */
+  color: rgb(255, 255, 255); /* Color del texto blanco */
+  right: 0%; /* Ajusta su posición en el centro del contenedor */
+  top: 90%;
+  width: 20%; /* Ancho completo del contenedor */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: xx-large;
+  font-family: "Madimi One", sans-serif;
+}
+
+.Información2 {
+  position: absolute; /* Posiciona el texto de forma absoluta */
+  color: rgb(255, 255, 255); /* Color del texto blanco */
+  right: 38%; /* Ajusta su posición en el centro del contenedor */
+  top: 70%;
+  width: 20%; /* Ancho completo del contenedor */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: x-large;
+  font-family: "Madimi One", sans-serif;
+}
