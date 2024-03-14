@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 .fondo1 {
   position: fixed; /* Posición fija para que la imagen se mantenga fija en la pantalla */
   top: 0;
@@ -151,5 +152,39 @@ h1 {
   transform: translateX(-50%); /* Centra el texto horizontalmente */
   width: 50%; /* Ancho completo del contenedor */
   text-align: center; /* Centra el texto horizontalmente */
+  font-family: "Madimi One", sans-serif;
+  font-size: larger;
 }
 
+.Volver {
+  position: absolute; /* Posiciona el texto de forma absoluta */
+  color: rgb(255, 255, 255); /* Color del texto blanco */
+  left: 0%; /* Ajusta su posición en el centro del contenedor */
+  top: 90%;
+  width: 20%; /* Ancho completo del contenedor */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: xx-large;
+  font-family: "Madimi One", sans-serif;
+}
+
+.Evolución {
+  position: absolute; /* Posiciona el texto de forma absoluta */
+  color: rgb(255, 255, 255); /* Color del texto blanco */
+  right: 0%; /* Ajusta su posición en el centro del contenedor */
+  top: 90%;
+  width: 20%; /* Ancho completo del contenedor */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: xx-large;
+  font-family: "Madimi One", sans-serif;
+}
+
+.Información2 {
+  position: absolute; /* Posiciona el texto de forma absoluta */
+  color: rgb(255, 255, 255); /* Color del texto blanco */
+  right: 38%; /* Ajusta su posición en el centro del contenedor */
+  top: 70%;
+  width: 20%; /* Ancho completo del contenedor */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: x-large;
+  font-family: "Madimi One", sans-serif;
+}
