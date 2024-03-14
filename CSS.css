@@ -131,12 +131,25 @@ h1 {
 .Tipo{
   position: absolute;
   top: 63%;
-  left: 55%;
+  left: 56%;
   transform: translate(-20%, -130%);
   width: 1%;
 }
 
 .Tipo img {
-  width: 60px; /* Ancho deseado para la imagen */
+  width: 55px; /* Ancho deseado para la imagen */
   height: auto; /* Mantener la proporción de la imagen */
 }
+
+
+
+.información {
+  position: absolute; /* Posiciona el texto de forma absoluta */
+  color: white; /* Color del texto blanco */
+  left: 50%; /* Ajusta su posición en el centro del contenedor */
+  top: 80%;
+  transform: translateX(-50%); /* Centra el texto horizontalmente */
+  width: 50%; /* Ancho completo del contenedor */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
