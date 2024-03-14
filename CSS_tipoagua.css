@@ -23,8 +23,7 @@ h1 {
   font-family: "Bungee Spice", sans-serif;
   font-weight: 1000;
   font-style: normal;
-  
-  
+
 }
 
 .imagenizquierda {
@@ -72,6 +71,16 @@ h1 {
   font-family: "Madimi One", sans-serif;
   font-style: normal;
 }
+
+
+
+
+
+
+
+
+
+
 .mapaplanta {
   position: fixed; /* Posición fija para que la imagen se mantenga fija en la pantalla */
   top: 0;
@@ -87,7 +96,7 @@ h1 {
   object-fit: cover; /* Hacer que la imagen se ajuste para cubrir todo el contenedor */
 }
 
-.personajerowlet {
+.personajepopplio{
   position: absolute;
   top: 25%;
   right: 0;
@@ -95,7 +104,6 @@ h1 {
   width: 400px;
 
 }
-
 
 .titulo1 {
   position: absolute;
@@ -142,8 +150,6 @@ h1 {
   width: 55px; /* Ancho deseado para la imagen */
   height: auto; /* Mantener la proporción de la imagen */
 }
-
-
 
 .información {
   position: absolute; /* Posiciona el texto de forma absoluta */

@@ -23,10 +23,8 @@ h1 {
   font-family: "Bungee Spice", sans-serif;
   font-weight: 1000;
   font-style: normal;
-  
-  
+ 
 }
-
 .imagenizquierda {
   position: absolute;
   top: 50%;
@@ -72,6 +70,16 @@ h1 {
   font-family: "Madimi One", sans-serif;
   font-style: normal;
 }
+
+
+
+
+
+
+
+
+
+
 .mapaplanta {
   position: fixed; /* Posición fija para que la imagen se mantenga fija en la pantalla */
   top: 0;
@@ -95,7 +103,6 @@ h1 {
   width: 400px;
 
 }
-
 
 .titulo1 {
   position: absolute;
