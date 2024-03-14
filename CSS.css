@@ -1,0 +1,23 @@
+.fondo1 {
+  position: relative;
+  background: url('./img/MapadeKanto/kanto-map.jpg') center/cover;
+  height: 300px; /* Altura de ejemplo, ajusta según tus necesidades */
+}
+
+h1 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0; /* Elimina el margen predeterminado del título */
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente para el texto */
+  padding: 20px; /* Espacio alrededor del texto */
+}
+
+.imagenizquierda {
+  position: absolute;
+  top: 50%;
+  left: 30;
+  transform: translateY(-50%);
+  width: 400px;
+}
