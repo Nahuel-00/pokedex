@@ -115,3 +115,11 @@
   width: 400px;
 
 }
+.personajeBrionne{
+  position: absolute;
+  top: 19%;
+  right: 0;
+  transform: translate(-160%, -10%);
+  width: 400px;
+
+}
