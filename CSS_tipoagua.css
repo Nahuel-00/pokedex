@@ -123,3 +123,23 @@
   width: 400px;
 
 }
+.personajePrimarina{
+  position: absolute;
+  top: 19%;
+  right: 0;
+  transform: translate(-140%, -10%);
+  width: 400px;
+
+}
+
+.Atrás {
+  position: absolute; /* Posiciona el texto de forma absoluta */
+  color: rgb(255, 255, 255); /* Color del texto blanco */
+  right: 0%; /* Ajusta su posición en el centro del contenedor */
+  top: 80%;
+  width: 20%; /* Ancho completo del contenedor */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: xx-large;
+  font-family: "Madimi One", sans-serif;
+}
+
