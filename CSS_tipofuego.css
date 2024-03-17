@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');/*Letra exportada */
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+/* CLASES PARA MODIFICAR EL HTML */
 
 .mapaplanta {
   position: fixed; /* Posición fija para que la imagen se mantenga fija en la pantalla */
-  top: 0;
-  left: 0;
+  top: 0;/* Ajusta su posición en la parte superior de la pantalla */
+  left: 0;/* Ajusta su posición en el lado izquierdo de la pantalla */
   width: 100%; /* Ocupa todo el ancho de la ventana */
   height: 100%; /* Ocupa toda la altura de la ventana */
   z-index: -1; /* Para enviar la imagen al fondo y detrás de otros elementos */
@@ -19,20 +21,20 @@
 .titulo1 {
   position: absolute;/* Posiciona el texto de forma absoluta */
   top: 5%;/* distancia de la parte superior */
-  left: 50%;
+  left: 50%;/* Ajusta su posición en el centro del contenedor */
   transform: translate(-50%, -50%);
   background-color: rgba(255, 167, 4, 0.445); /* Fondo transparente para el texto */
   padding: 25px; /* Espacio alrededor del texto */
   font-family: "Bungee Spice", sans-serif; /* tipo de letra */
-  font-weight: 100; /*tamaño de la letra */
+  font-weight: 1000; /*tamaño de la letra */
   font-style: 30px;/*tamaño del estilo de fuente*/
 }
 
 .titulo2 {
   position: absolute;/* Posiciona el texto de forma absoluta */
   top: 60%;/* distancia de la parte superior */
-  left: 46%;
-  transform: translate(-50%, -50%);
+  left: 46%;/* Ajusta su posición casi en el centro del contenedor */
+  transform: translate(-50%, -50%);/* Sirve para poder mover un objeto de izquierda a derecha dentro de contenedor */
   font-family: "Bungee Spice", sans-serif;
   font-weight: 1000;
   font-style: normal;
@@ -41,7 +43,7 @@
 .titulo3 {
   position: absolute;/* Posiciona el texto de forma absoluta */
   top: 64%;/* distancia de la parte superior */
-  left: 50%;
+  left: 50%;/* Ajusta su posición en el centro del contenedor */
   transform: translate(-20%, -130%);
   background-color: rgba(255, 0, 0, 0.692); /* Fondo transparente para el texto */
   padding: 10px; /* Espacio alrededor del texto */
@@ -52,8 +54,8 @@
 .Tipo{
   position: absolute;/* Posiciona el texto de forma absoluta */
   top: 67%;/* distancia de la parte superior */
-  left: 55%;
-  transform: translate(-20%, -130%);
+  left: 55%;/* Ajusta su posición casi en el centro del contenedor */
+  transform: translate(-20%, -130%);/* Sirve para poder mover un objeto de izquierda a derecha dentro de contenedor */
   width: 1%;
 }
 
@@ -110,8 +112,8 @@
 .personajeTorracat{
   position: absolute;/* Posiciona el texto de forma absoluta */
   top: 25%;/* distancia de la parte superior */
-  right: 0;
-  transform: translate(-150%, -10%);
+  right: 0;/* Ajusta su posición en la derecha del contenedor */
+  transform: translate(-150%, -10%);/* Sirve para poder mover un objeto de izquierda a derecha dentro de contenedor */
   width: 400px;
 
 }
@@ -119,8 +121,8 @@
 .personajeLitten{
   position: absolute;/* Posiciona el texto de forma absoluta */
   top: 15%;/* distancia de la parte superior */
-  right: 0;
-  transform: translate(-170%, -10%);
+  right: 0;/* Ajusta su posición en la derecha del contenedor */
+  transform: translate(-170%, -10%);/* Sirve para poder mover un objeto de izquierda a derecha dentro de contenedor */
   width: 400px;
 
 }
@@ -142,7 +144,7 @@
   position: absolute;/* Posiciona el texto de forma absoluta */
   top: 25%;/* distancia de la parte superior */
   right: 0;
-  transform: translate(-170%, -10%);
+  transform: translate(-170%, -10%);/* Sirve para poder mover un objeto de izquierda a derecha dentro de contenedor */
   width: 400px;
 
 }

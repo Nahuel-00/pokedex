@@ -110,8 +110,8 @@ h1 {
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 167, 4, 0.445); /* Fondo transparente para el texto */
-  padding: 25px; /* Espacio alrededor del texto */
+  background-color: rgba(255, 167, 4, 0.445); 
+  padding: 25px; 
   font-family: "Madimi One", sans-serif;
   font-weight: 1000;
   font-style: 30px;
@@ -218,10 +218,10 @@ h1 {
 .Atrás {
   position: absolute; /* Posiciona el texto de forma absoluta */
   color: rgb(255, 255, 255); /* Color del texto blanco */
-  right: 0%; /* Ajusta su posición en el centro del contenedor */
+  right: 0%; 
   top: 80%;
-  width: 20%; /* Ancho completo del contenedor */
-  text-align: center; /* Centra el texto horizontalmente */
+  width: 20%;
+  text-align: center; 
   font-size: xx-large;
   font-family: "Madimi One", sans-serif;
 }
