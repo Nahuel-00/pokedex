@@ -43,7 +43,7 @@
   top: 64%;
   left: 50%;
   transform: translate(-20%, -130%);
-  background-color: rgba(0, 60, 255, 0.349); /* Fondo transparente para el texto */
+  background-color: rgba(255, 0, 0, 0.692); /* Fondo transparente para el texto */
   padding: 10px; /* Espacio alrededor del texto */
   font-family: "Bungee Spice", sans-serif;
   font-weight: 1000;
@@ -107,7 +107,7 @@
   font-family: "Madimi One", sans-serif;
 }
 
-.personajepopplio{
+.personajeLitten{
   position: absolute;
   top: 15%;
   right: 0;
