@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');/*Letra exportada */
 
 .mapaplanta {
   position: fixed; /* Posición fija para que la imagen se mantenga fija en la pantalla */
@@ -10,27 +10,27 @@
 }
 
 .mapaplanta img {
-  width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
-  height: 100%; /* Hacer que la imagen ocupe toda la altura del contenedor */
-  object-fit: cover; /* Hacer que la imagen se ajuste para cubrir todo el contenedor */
+  width: 100%; /* Hace que la imagen ocupe todo el ancho del contenedor */
+  height: 100%; /* Hace que la imagen ocupe toda la altura del contenedor */
+  object-fit: cover; /* Hace que la imagen se ajuste para cubrir todo el contenedor */
 }
 
 
 .titulo1 {
-  position: absolute;
-  top: 5%;
+  position: absolute;/* Posiciona el texto de forma absoluta */
+  top: 5%;/* distancia de la parte superior */
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 167, 4, 0.445); /* Fondo transparente para el texto */
   padding: 25px; /* Espacio alrededor del texto */
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 1000;
-  font-style: 30px;
+  font-family: "Bungee Spice", sans-serif; /* tipo de letra */
+  font-weight: 100; /*tamaño de la letra */
+  font-style: 30px;/*tamaño del estilo de fuente*/
 }
 
 .titulo2 {
-  position: absolute;
-  top: 60%;
+  position: absolute;/* Posiciona el texto de forma absoluta */
+  top: 60%;/* distancia de la parte superior */
   left: 46%;
   transform: translate(-50%, -50%);
   font-family: "Bungee Spice", sans-serif;
@@ -39,8 +39,8 @@
 }
 
 .titulo3 {
-  position: absolute;
-  top: 64%;
+  position: absolute;/* Posiciona el texto de forma absoluta */
+  top: 64%;/* distancia de la parte superior */
   left: 50%;
   transform: translate(-20%, -130%);
   background-color: rgba(255, 0, 0, 0.692); /* Fondo transparente para el texto */
@@ -50,8 +50,8 @@
   font-style: normal;
 }
 .Tipo{
-  position: absolute;
-  top: 67%;
+  position: absolute;/* Posiciona el texto de forma absoluta */
+  top: 67%;/* distancia de la parte superior */
   left: 55%;
   transform: translate(-20%, -130%);
   width: 1%;
@@ -66,7 +66,7 @@
   position: absolute; /* Posiciona el texto de forma absoluta */
   color: white; /* Color del texto blanco */
   left: 50%; /* Ajusta su posición en el centro del contenedor */
-  top: 80%;
+  top: 80%;/* distancia de la parte superior */
   transform: translateX(-50%); /* Centra el texto horizontalmente */
   width: 50%; /* Ancho completo del contenedor */
   text-align: center; /* Centra el texto horizontalmente */
@@ -78,7 +78,7 @@
   position: absolute; /* Posiciona el texto de forma absoluta */
   color: rgb(255, 255, 255); /* Color del texto blanco */
   left: 0%; /* Ajusta su posición en el centro del contenedor */
-  top: 90%;
+  top: 90%;/* distancia de la parte superior */
   width: 20%; /* Ancho completo del contenedor */
   text-align: center; /* Centra el texto horizontalmente */
   font-size: xx-large;
@@ -89,7 +89,7 @@
   position: absolute; /* Posiciona el texto de forma absoluta */
   color: rgb(255, 255, 255); /* Color del texto blanco */
   right: 0%; /* Ajusta su posición en el centro del contenedor */
-  top: 90%;
+  top: 90%;/* distancia de la parte superior */
   width: 20%; /* Ancho completo del contenedor */
   text-align: center; /* Centra el texto horizontalmente */
   font-size: xx-large;
@@ -99,17 +99,48 @@
 .Información2 {
   position: absolute; /* Posiciona el texto de forma absoluta */
   color: rgb(255, 255, 255); /* Color del texto blanco */
-  right: 38%; /* Ajusta su posición en el centro del contenedor */
-  top: 70%;
+  right: 38%; /* Ajusta su posición en el centro del contenedor, pero lo he cambiado para que quede un poco mas a la derecha*/
+  top: 70%;/* distancia de la parte superior */
   width: 20%; /* Ancho completo del contenedor */
   text-align: center; /* Centra el texto horizontalmente */
   font-size: x-large;
   font-family: "Madimi One", sans-serif;
 }
 
+.personajeTorracat{
+  position: absolute;/* Posiciona el texto de forma absoluta */
+  top: 25%;/* distancia de la parte superior */
+  right: 0;
+  transform: translate(-150%, -10%);
+  width: 400px;
+
+}
+
 .personajeLitten{
-  position: absolute;
-  top: 15%;
+  position: absolute;/* Posiciona el texto de forma absoluta */
+  top: 15%;/* distancia de la parte superior */
+  right: 0;
+  transform: translate(-170%, -10%);
+  width: 400px;
+
+}
+
+
+.Atrás {
+  position: absolute; /* Posiciona el texto de forma absoluta */
+  color: rgb(255, 255, 255); /* Color del texto blanco */
+  right: 0%; /* Ajusta su posición en el centro del contenedor */
+  top: 80%;/* distancia de la parte superior */
+  width: 20%; /* Ancho completo del contenedor */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: xx-large;
+  font-family: "Madimi One", sans-serif;
+}
+
+
+.personajeIncineroar{
+  position: absolute;/* Posiciona el texto de forma absoluta */
+  top: 25%;/* distancia de la parte superior */
   right: 0;
   transform: translate(-170%, -10%);
   width: 400px;
