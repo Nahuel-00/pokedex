@@ -129,8 +129,11 @@
   right: 0;
   transform: translate(-140%, -10%);
   width: 400px;
-  height:auto;
 
+}
+img.primarina{
+  width: 300px;
+  height: auto;
 }
 
 .Atrás {
